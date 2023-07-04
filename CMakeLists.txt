@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 3.25)
+project(ele5)
+set(CMAKE_CXX_STANDARD 17)
+include_directories(C:/Users/ASUS/AppData/Local/Programs/Python/Python311/include)
+link_libraries(C:/Users/ASUS/AppData/Local/Programs/Python/Python311/libs/python311.lib)
+add_executable(ele main.cpp Building.cpp Elevator.cpp Floor.cpp Rider.cpp)
